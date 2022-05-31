@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+
+#main-interface{
+    display: flex;
+    height:100%;
+    width: 100%;
+}
+
+.side_bar_icon{
+    cursor: pointer;
+}
+
+p.side_bar_icon {
+    margin: 0;
+    padding-top:10px;
+}
+
+#left-content{
+    width: 20%;
+    height: 100%;
+}
+
+#right-content{
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFE;
+}
+
+#center-content {
+    margin: 20px;
+    height: 90%;
+}
+
+.main_section{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.dashboard_heading{
+    font-size: 33px;
+    font-weight: 900;
+}
+.list_type_sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+     align-items: flex-start;
+}
+#list li{
+    list-style-type: none;
+    padding: 20px;
+    color: #5a52a7;
+    align-items: center;
+    font-weight: 500;
+}
+#list li:hover{
+    color: #4a3bcd;
+}
+i.fa-btc{
+    font-size: 40px;
+}
+#list img{
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+#home_btn{
+    background-color: #5a52a7;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* Nav bar */
+#navbar{
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#notice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#search{
+    background-image: url(Icon/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: none;
+    width: 400px;
+    height: 45px;
+}
+#user-profile{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+#middleUpper{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    color: white;
+}
+.heading_chart, #willie-section{
+    font-size: 28px;
+    margin: 10px 0px;
+}
+.monthly_price{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.resizing{
+    margin-top: 40px;
+}
+#section1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #574ac0;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#seeTransaction{
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: #635BC2;
+    color: #fff;
+    font-weight: bold;
+}
+
+#blockchain_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#mycard{
+    padding-left: 50px;
+    color: black;
+}
+.heading_blockchain{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#market{
+    /* margin-left: 20px; */
+    width: 65%;
+    height: 200px;
+    /* padding-top: 10px; */
+}
+
+h2 {
+    padding-left: 10px;
+} 
+
+#willie {
+    
+}
+
+#WM{
+        display: grid;
+        grid-template-columns: 35% 35% 20%;
+        column-gap: 22px;
+        align-items: center;
+        justify-items: center;
+        color: #4a3bcd;
+}
+.text_content{
+    margin-top: 10px;
+}
+
+.BTC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+    background-color: #fff;
+    align-items: center;
+    justify-items: center;
+    padding: 12px;
+}
+.alone {
+    margin-left: 10px;
+}
+.timeline_transaction{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #ccc;
+}
+#eth{
+    font-size: 40px;
+}
+
+/* Monthly Limits and Transaction */
+#middleRight{
+    float: right;
+}
+
+#monthly{
+    padding-right: 170px;
+    padding-top: 10px;
+}
+
+#transaction{
+    width: 100%;
+}
+
+.view_detail{
+    background-color: #FB896B;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 118px;
+}
+
+table{
+    background-color: white;
+    height: 300px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+td{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.money{
+    color: #5a52a7;
+}
+
+td img{
+    padding-left: 15px;
+}

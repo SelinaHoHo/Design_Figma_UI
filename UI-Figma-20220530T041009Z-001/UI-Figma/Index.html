@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/397ab0845f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Figma UI</title>
+  </head>
+  <body>
+    <div id="main-interface">
+      <div id="left-content">
+        <div style="margin-left: 50px; margin-top: 50px">
+          <img src="Icons/Logo.svg" alt="" />
+        </div>
+        <div id="list">
+          <ul class="list_type_sidebar">
+            <li class="side_bar_icon" id="home_btn" style="color: white">
+              <img src="Icons/home-icon.svg" alt="" />Dashboard
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Trading-icon.svg" alt="" />Trading
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Wallet-icon.svg" alt="" />Wallet
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Exchange-icon.svg" alt="" />Exchannge
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Coin-icon.svg" alt="" />Buy & Sell
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Profile-icon.svg" alt="" />Profile
+            </li>
+            <li class="side_bar_icon">
+              <img src="Icons/Setting-icon.svg" alt="" />Settings
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="right-content">
+        <div id="navbar">
+          <h2 class="dashboard_heading">Dashboard</h2>
+          <div id="searchbar">
+            <label for="search"></label>
+            <input type="search" id="search" placeholder="Search anything" />
+          </div>
+          <div id="notice">
+            <img
+              class="icon_svg"
+              class="icon2"
+              src="Icons/Email-icon.svg"
+              alt=""
+            />
+            <img
+              class="icon_svg"
+              class="icon2"
+              src="Icons/Notification-icon.svg"
+              alt=""
+            />
+          </div>
+          <div id="user-profile">
+            <img class="icon_svg" src="Icons/icon-profile-1.svg" alt="" />
+            <p class="icon_svg">Leroy Hanson</p>
+            <img class="icon_svg" src="Icons/Arrow-icon.svg" alt="" />
+          </div>
+        </div>
+        <div id="center-content">
+          <div id="middleUpper">
+            <div id="section1">
+              <div class="board_left">
+                <h3 class="heading_blockchain">
+                  Make Your Crypto Transaction Easier
+                </h3>
+                <button id="seeTransaction">See Transaction</button>
+              </div>
+              <div class="board_right">
+                <img id="blockchain_img" src="Images/NFT-img.png" alt="" />
+              </div>
+            </div>
+            <div id="mycard">
+              <h3>My Cards</h3>
+              <img class="icon_svg" src="Images/Card-img.png" alt="" />
+            </div>
+          </div>
+          <div class="main_section">
+            <div id="market">
+              <h5 class="heading_chart">Market Overview</h5>
+              <img class="line_chart" src="Images/Group 237599.png" alt="" />
+            </div>
+            <div id="middleRight">
+              <div id="monthly">
+                <h3>Monthly Limits</h3>
+                <h5 class="monthly_price">$20000 of $100000</h5>
+              </div>
+              <button class="view_detail">View Details</button>
+              <div id="transaction">
+                <h5 class="monthly_price resizing">Transaction</h5>
+                <div>
+                  <table>
+                    <tr class="icon_svg">
+                      <td><img src="Icons/Avatar 4.svg" alt="" /></td>
+                      <td>
+                        Jacquelyn Pierce <br /><span
+                          class="timeline_transaction"
+                        >
+                          08:00 Am - 19 Aug</span
+                        >
+                      </td>
+                      <td class="index_price">+$1,400</td>
+                    </tr>
+                    <tr class="icon_svg">
+                      <td><img src="Icons/icon-profile-1.svg" alt="" /></td>
+                      <td>
+                        Shannon Talley <br /><span class="timeline_transaction">
+                          10:15 Am - 19 Aug</span
+                        >
+                      </td>
+                      <td class="index_price">-$650</td>
+                    </tr>
+                    <tr class="icon_svg">
+                      <td><img src="Icons/Avatar2.svg" alt="" /></td>
+                      <td>
+                        Thelma Crites<br /><span class="timeline_transaction">
+                          12:45 Am - 25 Aug</span
+                        >
+                      </td>
+                      <td class="index_price">+$900</td>
+                    </tr>
+                    <tr class="icon_svg">
+                      <td><img src="Icons/Avatar 4.svg" alt="" /></td>
+                      <td>
+                        Jacquelyn Pierce<br /><span
+                          class="timeline_transaction"
+                        >
+                          08:00 Am - 19 Aug</span
+                        >
+                      </td>
+                      <td class="index_price">+$1,400</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="willie">
+              <h5 id="willie-section">Willie Meadows</h5>
+              <div id="WM">
+                <div class="BTC">
+                  <div class="icon">
+                    <i class="fa-brands fa-btc"></i>
+                  </div>
+                  <div class="text_content">
+                    <h5 class="blockchain_price">$65,123BTC</h5>
+                    <p class="info">45% This Week</p>
+                  </div>
+                </div>
+                <div class="BTC">
+                  <div class="icon">
+                    <i class="fa-brands fa-btc"></i>
+                  </div>
+                  <div class="text_content">
+                    <h5 class="blockchain_price">$65,123BTC</h5>
+                    <p class="info">45% This Week</p>
+                  </div>
+                </div>
+                <div class="alone">
+                  <div class="icon">
+                    <i id="eth" class="fa-brands fa-ethereum"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
